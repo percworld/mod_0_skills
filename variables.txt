@@ -1,0 +1,9 @@
+var food = "Lasagna";
+var is_delicious = true;
+food = "Spaghetti";
+var num2 = 16;
+var num7 = 32;
+var quotient = num7 / num2;
+songs = ["Hot For Teacher", "Wipeout", "Once In a Lifetime", "Everyday"];
+songs.remove(1);
+var char_num = str.length(food)
