@@ -1,0 +1,12 @@
+Instance: ovenCleaner
+
+Attributes:
+product_amount = 22.5
+previous_product_amount = 22.9
+surface_type = "metal"
+efficiency_rating = 9
+degreaser = true
+
+Method
+
+daily_use = .4
