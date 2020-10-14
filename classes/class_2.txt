@@ -1,0 +1,15 @@
+Cleaner
+
+Attributes:
+product_amount (float)
+previous_product_amount (float)
+surface_type (array)
+efficiency_rating (integer)
+degreaser (boolean)
+
+
+Methods:
+clean_surface (uses surface_type and degreaser)
+order_new (returns a yes if product_amount is under 16)
+daily_use (effects efficiency rating by subtracting product_amount from previous_product_amount)
+when_in_rome (warns of a discrepancy where not enough product was used)

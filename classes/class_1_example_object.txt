@@ -1,0 +1,8 @@
+Instance: soup_bowl
+
+size = 6.5
+total_number = 32
+stackable = true
+type = "bowl"
+
+stack_number yeilds total_number / 4 = 8
