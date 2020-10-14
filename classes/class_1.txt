@@ -1,0 +1,13 @@
+Dish
+
+Attributes:
+size (float)
+total_number (integer)
+stackable (boolean)
+type (string)
+
+Methods:
+stack (if stackable is true then uses number integer)
+in_use (uses total_number and type)
+shelved (uses total_number and type)
+dishwasher_volume (uses size, boolean and type)
