@@ -4,6 +4,7 @@ food = "Spaghetti";
 var num2 = 16;
 var num7 = 32;
 var quotient = num7 / num2;
-songs = ["Hot For Teacher", "Wipeout", "Once In a Lifetime", "Everyday"];
-songs.remove(1);
-var char_num = str.length(food)
+let songs = ["Hot For Teacher", "Wipeout", "Once In a Lifetime", "Everyday"];
+let removed = songs.splice(0, 1);
+console.log(songs);
+console.log("How many letters are in your chosen food? Answer: " + food.length);
