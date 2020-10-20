@@ -1,12 +1,14 @@
 Instance: ovenCleaner
 
-Attributes:
-product_amount = 22.5
-previous_product_amount = 22.9
-surface_type = "metal"
-efficiency_rating = 9
-degreaser = true
+productAmount = 22.5
+previousProductAmount = 22.9
+dailyUse = .3
+timeOfCleaning = 21:34
 
-Method
 
-daily_use = .4
+Methods:
+
+orderNew = false
+dailyUse = 22.9 - 22.5 = 0.4
+usingTooMuch 22.9 - 22.5 = 0.4   0.4 > 0.3 = true
+alertEmployee = false

@@ -1,15 +1,19 @@
 Cleaner
 
 Attributes:
-product_amount (float)
-previous_product_amount (float)
-surface_type (array)
-efficiency_rating (integer)
-degreaser (boolean)
+
+productAmount (float)
+previousProductAmount (float)
+dailyUse (float)
+timeOfCleaning (datetime)
 
 
 Methods:
-clean_surface (uses surface_type and degreaser)
-order_new (returns a yes if product_amount is under 16)
-daily_use (effects efficiency rating by subtracting product_amount from previous_product_amount)
-when_in_rome (warns of a discrepancy where not enough product was used)
+
+orderNew (returns a yes if product_amount is under 16)
+dailyUse (subtracts productAmount from previousProductAmount)
+usingTooMuch (subtracts productAmount from previousProductAmount. That answer is compared to dailyUse and if it exceeds
+dailyUse's value it returns true)
+alertEmployee (warns of a discrepancy where not enough product was used the day before by subtracting productAmount
+from previousProductAmount then comparing it to dailyUse.   If this result is less than half of the daily use value, a true value
+is returned.  Also warns with a return of true if timeOfCleaning is past 22:00.)
